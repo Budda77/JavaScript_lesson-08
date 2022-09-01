@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Events Handling</title>
+<style>
+.custom-margin {
+	margin-top: 15px
+}
+.error {
+	background-color: red;
+}
+.accepted {
+	background-color: green;
+}
+</style>
+
+</head>
+<body>
+
+<input class = "custom-margin" value='Press me' type='button' onclick="showData('Hi Guys.')">
+
+<br>
+<input class = "custom-margin" value='Count birds' type='button' onclick="countBird()">
+
+<br>
+<input class = "custom-margin" id='eventFromJSButton' value='JSEventClick' type='button'>
+
+<br>
+<textarea class = "custom-margin" id="area" rows="10" cols="30"></textarea>
+
+<br>
+<input class = "custom-margin" id='focusButton' value='focusButton' type='button'>
+<input class = "custom-margin" id='focusText' type='text'>
+
+<br>
+<label>Age: <input class = "custom-margin" id='formValidationAge' type='text'>
+</label>
+
+<label>Name: <input id='formValidationName' type='text'>
+</label>
+
+
+
+
+	<script src="eventsHandler.js"></script>
+</body>
+</html>
